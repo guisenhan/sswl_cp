@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lib.homhomlib.design.SlidingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:background_view="@layout/view_bg"
+    android:id="@+id/sl_hot"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_no_data"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="抱歉，没有获取到相关内容"
+                android:textColor="@color/tv_gray"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_no_live"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.paging.listview.PagingListView
+        android:id="@+id/lv_live_hot"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</lib.homhomlib.design.SlidingLayout>

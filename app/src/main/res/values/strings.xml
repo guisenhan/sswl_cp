@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">财拍</string>
+    <string name="app_slogan">最漂亮的财经直播平台</string>
+    <string name="buffering">缓冲中</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!-- login string -->
+    <string name="login_choose_loginway">请选择登录方式</string>
+    <string name="login_tips">登录即代表你同意</string>
+    <string name="login_cp_protocol"><u>财拍服务和隐私条款</u></string>
+    <string name="title_activity_phone_login">PhoneLoginActivity</string>
+
+    <!-- phone login-->
+    <string name="pl_title">手机登录</string>
+    <string name="pl_country">+86 中国</string>
+    <string name="pl_prompt_phone">请输入手机号</string>
+    <string name="pl_validate">验证</string>
+    <string name="pl_prompt_code">请输入验证码</string>
+    <string name="pl_login">登录</string>
+
+    <!-- mine fragment -->
+    <string name="attention">关注</string>
+    <string name="fans">粉丝</string>
+    <string name="live">直播</string>
+    <string name="level">等级</string>
+    <string name="contribute">财票贡献榜</string>
+    <string name="account">账户</string>
+    <string name="income">收益</string>
+    <string name="authentication">财拍认证</string>
+    <string name="setting">设置</string>
+
+    <!-- user info activity-->
+    <string name="editInfo">编辑资料</string>
+    <string name="user_photo">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="app_account">财拍号</string>
+    <string name="sex">性别</string>
+    <string name="user_sign">个性签名</string>
+    <string name="user_indetify">身份信息</string>
+    <string name="authention">认证</string>
+    <string name="age">年龄</string>
+    <string name="emotion_state">感情状态</string>
+    <string name="hometown">家乡</string>
+    <string name="career">职业</string>
+    <string name="defalut_sign">这个人很懒，什么都没有留下......</string>
+    <string name="update_app_account">认证财拍号</string>
+    <string name="default_age">你猜</string>
+    <string name="default_sex">保密</string>
+    <string name="default_emotion_state">保密</string>
+    <string name="edit_sex">编辑性别</string>
+    <!-- change pic -->
+    <string name="choose_pic_from_album">从相册选择</string>
+    <string name="choose_pic_from_camera">拍照</string>
+
+    <!-- edit user info-->
+    <string name="edit_nickname">修改昵称</string>
+    <string name="edit_nickname_hint">昵称不能超过16个字</string>
+    <string name="save">保存</string>
+    <string name="secret">保密</string>
+    <string name="alone">单身</string>
+    <string name="inlove">恋爱中</string>
+    <string name="married">已婚</string>
+    <string name="gay">同性</string>
+
+    <!-- create live -->
+    <string name="cl_ed_hint">给直播写个标题吧</string>
+    <string name="add_theme"># 添加话题</string>
+    <string name="location">定位</string>
+    <string name="start_living">开始直播</string>
+
+    <!-- camera pop-->
+    <string name="turn_camera">翻转</string>
+    <string name="flash_light">闪光灯</string>
+    <string name="share">分享</string>
+    <string name="send">发送</string>
+    <string name="repeat_download_message">重新下载?</string>
+    <string name="report">举报</string>
+    <!-- live fragment -->
+    <string name="new_live">最新直播</string>
+
+    <!-- liver center -->
+    <string name="cancer">关注</string>
+    <string name="defriend">拉黑</string>
+    <string name="private_letter">私信</string>
+    <string name="cp_contribute_list">财票贡献榜</string>
+    <string name="cp_account">财拍号</string>
+    <!-- search activity-->
+    <string name="cancel">搜索</string>
+</resources>

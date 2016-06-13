@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:gravity="center_vertical"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_level_0"
+        android:layout_marginLeft="@dimen/text_horizontal_padding"
+        android:id="@+id/icon_level"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_sub_color"
+        android:layout_toRightOf="@+id/icon_level"
+        android:id="@+id/tv_nickname"
+        android:textSize="@dimen/text_17dp"
+        android:text="linghusen  "
+        android:layout_marginLeft="@dimen/text_horizontal_padding"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/tv_message"
+        android:textSize="@dimen/text_17dp"
+        android:layout_toRightOf="@+id/tv_nickname"
+        android:layout_centerVertical="true"
+        android:text="zheshiceshixinxi "
+        />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_live_new"
+        android:src="@mipmap/user_photo"
+        android:scaleType="centerCrop"
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_horizontal_padding"
+        android:layout_marginTop="@dimen/text_vertical_padding"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_level_0"
+            android:id="@+id/iv_icon_level"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="杭州市"
+            android:layout_toRightOf="@id/iv_icon_level"
+            android:layout_marginLeft="@dimen/text_horizontal_padding"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSize18"
+            android:id="@+id/tv_live_name"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_color"
+        style="@style/topbar"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/search"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_search"
+            />
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/sixinenter"
+            android:layout_weight="0.3"
+            android:id="@+id/iv_message"
+            android:layout_alignParentRight="true"
+            />
+        <com.shizhefei.view.indicator.FixedIndicatorView
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/iv_search"
+            android:layout_toLeftOf="@+id/iv_message"
+            android:layout_height="40dp"
+            android:id="@+id/fiv_live_tab"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+    <com.shizhefei.view.viewpager.SViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/svp_live"
+        />
+</LinearLayout>

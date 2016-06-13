@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a393e</color>
+    <color name="colorPrimaryDark">#3a393e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="main_color">#3a393e</color>
+    <color name="main_sub_color">#ffd500</color>
+    <color name="dialog_black">#272636</color>
+    <color name="dialog_click_color">#0084FF</color>
+    <color name="transparent">#00000000</color>
+    <!--activity background-->
+    <color name="gray_bg">#f7f7f7</color>
+
+    <!--divider background -->
+    <color name="divider">#dcdae5</color>
+    <color name="line">#e5e5e5</color>
+
+    <!-- textView color-->
+    <color name="tv_gray">#a7a7a7</color>
+    <color name="tv_normal">#3a393e</color>
+    <color name="tv_white">#ffffff</color>
+    <color name="tv_yellow">#ffd500</color>
+    <color name="tv_blue">#21a5f1</color>
+    <color name="tv_pink">#e86d83</color>
+    <!-- phone login-->
+    <color name="pl_bg">#f7f7f7</color>
+    <color name="pl_tv_gray">#a7a7a7</color>
+    <color name="pl_line">#e5e5e5</color>
+
+    <!-- mine fragment-->
+    <color name="mine_divider">#dcdae5</color>
+
+    <!-- pic -->
+    <color name="body">#FFFFFF</color>
+    <color name="title">#FFFFFF</color>
+    <color name="textColor1">#000000</color>
+    <color name="my_item_bg_press">#F2F2F2</color>
+    <color name="my_item_bg">#FFFFFF</color>
+    <color name="line_4">#F2F2F2</color>
+    <color name="line_1">#C8C8C8</color>
+    <color name="loginbg">#F2F4F7</color>
+    <color name="popwindow_back">#70000000</color>
+    <!-- create live -->
+    <color name="cl_start_color">#616161</color>
+    <color name="cl_end_color">#1A1A1A</color>
+
+</resources>

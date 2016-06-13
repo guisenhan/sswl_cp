@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_divider_height"
+        android:background="@color/mine_divider"
+        />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:numColumns="2"
+        android:id="@+id/gv_theme"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_divider_height"
+        android:background="@color/mine_divider"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_horizontal_padding"
+        android:layout_marginTop="@dimen/text_vertical_padding"
+        android:text="@string/new_live"
+        />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:id="@+id/gv_new_live"
+        >
+    </GridView>
+</LinearLayout>

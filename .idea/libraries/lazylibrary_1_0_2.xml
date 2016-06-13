@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lazylibrary-1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.lazylibrary/lazylibrary/1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.lazylibrary/lazylibrary/1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lazylibrary/lazylibrary/1.0.2/5e840e759dafd01b88aeb36df0c871ad1a5fe59/lazylibrary-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
